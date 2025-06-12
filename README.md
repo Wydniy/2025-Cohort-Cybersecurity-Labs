@@ -17,7 +17,7 @@ Each lab folder includes:
 
 ✅ Completed Labs
 
-- [Lab 01 – RMF: SOC Post Incident Analysis and Remediation](./Lab-01-RMF-Post-Incident-Analysis/)
+- Lab 01 – RMF: SOC Post Incident Analysis and Remediation
 - More labs coming soon...
 
 ## 🛠️ Tools & Skills Covered
