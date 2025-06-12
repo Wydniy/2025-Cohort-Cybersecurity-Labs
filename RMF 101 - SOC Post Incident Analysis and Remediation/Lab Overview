@@ -1,0 +1,88 @@
+🛡 SOC Post-Incident Analysis Lab – Overview
+
+🧪 Lab Description  
+This hands-on cybersecurity lab focuses on post-incident analysis of the critical Log4Shell vulnerability (CVE-2021-44228) using a compromised web application environment.  
+
+You’ll take on the role of a SOC analyst to investigate a security incident, analyze logs, build a timeline of the compromise, identify the exploited vulnerability, and implement effective remediation strategies.
+
+🧠 Scenario Background  
+Your organization has detected suspicious activity on a **Linux server** running a vulnerable web application.  
+
+Initial alerts suggest the system may have been compromised through **Log4j**, one of the most severe vulnerabilities in recent years.
+
+You are tasked to:
+
+- 🕒 Determine when the compromise occurred  
+- 🔓 Identify how the attacker exploited the system  
+- 🔧 Decide what remediation steps are necessary to secure the environment  
+
+🖥️ Lab Infrastructure
+
+🔧 Virtual Machine Specs
+- Base VM: e2-standard-2 (2 vCPUs, 8GB RAM, 40GB disk)  
+- OS: Debian 11 (Bullseye)  
+- Network: Default VPC with custom firewall rules  
+
+🧱 Installed Components
+- Java Development Kit: OpenJDK 11  
+- Build Tool: Maven  
+- SIEM: Splunk Enterprise  
+- GUI Access: XRDP (via RDP)  
+- Desktop: XFCE4 with Firefox  
+- Vulnerable App: Java web app using Log4j v2.14.1  
+
+🌐 Network Configuration
+- SSH Access: `Port 22`  
+- RDP Access: `Port 3389`  
+- Splunk Web: `Port 8000`  
+- Vulnerable App: `Port 8080`  
+- Additional Ports: 8443, 8888 (for flexibility)  
+
+📚 Learning Environment Features
+
+🧪 Pre-Configured Attack Simulation
+- Automated scripts generate realistic Log4Shell exploitation attempts  
+- Logging system captures detailed events and system responses  
+- Timeline realism helps simulate true forensic investigation scenarios  
+
+🔍 Analysis Tools
+- Splunk Enterprise – Centralized SIEM for log analysis  
+- Command Line Tools – Linux utilities for inspection  
+- Firefox** – Web access and research  
+- Maven + Java – For potential code-level remediation  
+
+🧰 Security Research Resources
+- Access to CVE databases & advisories  
+- Sample code/configs for testing fixes  
+- Multiple mitigation techniques to compare  
+
+📦 Lab Deployment Model
+
+Supports two modes:
+
+1. Base Image Creation – Deploy a single configured VM  
+2. Student Deployment – Launch multiple student-ready environments  
+
+This structure helps instructors:
+- Build a fully equipped master lab  
+- Clone consistent labs for each student  
+- Scale deployments based on class size  
+
+🌍 Real-World Relevance
+This lab mimics actual SOC workflows:
+
+- 🛡️ Real Threat**: Log4Shell impacted millions worldwide  
+- 🏢 Industry-Relevant: Knowledge of this CVE is crucial in today’s job market  
+- 🧑‍💻 Practical Skills: Trains incident response, forensics, and log analysis  
+- 🔎 Tool Proficiency: Builds experience with Splunk and command-line utilities  
+
+🎓 Educational Value
+Students gain experience in:
+
+- 🕒 Incident Timeline Analysis
+- 🧬 Vulnerability Research & CVE Assessment
+- 📊 Log Review & SIEM Analysis
+- 🛠️ Security Fix Implementation
+- 📝 Incident Documentation & Reporting 
+
+🔐 This lab provides a safe and realistic environment to develop core cybersecurity skills while working hands-on with modern vulnerabilities and enterprise tools.
