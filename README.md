@@ -16,19 +16,19 @@ Each lab folder includes:
 
 Click on a category to view the related labs:
 
-- [RMF](./RMF) – Risk Management Framework labs including incident handling and SOC analysis  
-- [Linux](./Linux) – Linux CLI fundamentals and privilege escalation exercises  
-- [Powershell](./Powershell) – Powershell basics and advanced scripting labs  
-- [Security-Controls](./Security-Controls) – STIG compliance, firewall, GPO, logging, and security controls  
-- [Splunk](./Splunk) – SIEM analysis, alerts, lookups, and expressions  
-- [Cloud](./Cloud) – IAM, AWS log monitoring, privacy, and cloud incident response  
-- [Containers](./Containers) – Docker security assessments  
-- [Cryptography](./Cryptography) – Cryptographic overview and vulnerabilities  
-- [Pentesting](./Pentesting) – Blue team penetration testing exercises  
-- [Web-App](./Web-App) – Web application exploitation phases  
-- [Incident-Response](./Incident-Response) – Forensics, timeline reconstruction, host-based triage, malware handling  
-- [Threat-Intel](./Threat-Intel) – MITRE ATT&CK and threat intelligence correlation  
-- [Tools](./Tools) – Security tools used in labs (e.g., Burpsuite)  
+- [RMF](./rmf) – Risk Management Framework labs including incident handling and SOC analysis  
+- [Linux](./linux) – Linux CLI fundamentals and privilege escalation exercises  
+- [Powershell](./powershell) – Powershell basics and advanced scripting labs  
+- [Security-Controls](./cecurity-controls) – STIG compliance, firewall, GPO, logging, and security controls  
+- [Splunk](./splunk) – SIEM analysis, alerts, lookups, and expressions  
+- [Cloud](./cloud) – IAM, AWS log monitoring, privacy, and cloud incident response  
+- [Containers](./containers) – Docker security assessments  
+- [Cryptography](./cryptography) – Cryptographic overview and vulnerabilities  
+- [Pentesting](./pentesting) – Blue team penetration testing exercises  
+- [Web-App](./web-app) – Web application exploitation phases  
+- [Incident-Response](./incident-response) – Forensics, timeline reconstruction, host-based triage, malware handling  
+- [Threat-Intel](./threat-intel) – MITRE ATT&CK and threat intelligence correlation  
+- [Tools](./tools) – Security tools used in labs (e.g., Burpsuite)  
 
 ---
 
