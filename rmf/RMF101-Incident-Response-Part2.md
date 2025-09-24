@@ -2,7 +2,7 @@
 
 **🎯 Objective**
 
-In this lab, you will:
+In this lab, I:
 
 1. Configure log forwarding from endpoints to the SIEM
 2. Validate log ingestion using search or query
