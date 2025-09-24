@@ -19,8 +19,8 @@ This hands-on cybersecurity lab provides students with practical experience in s
 
 **👁️ Observations**
 
-- The cat command on the terminal goes into a file or looks into something. for example I wrote `cat scripts/brute_force_ssh.py` to look into that file.
-- Brute Force Attacks can be ran using Python in the terminal which I found interesting.
+- The cat command on the terminal goes into a file or looks into something. For example, I wrote `cat scripts/brute_force_ssh.py` to look into that file.
+- Brute Force Attacks can be run using Python in the terminal, which I found interesting.
 
 ---
 
